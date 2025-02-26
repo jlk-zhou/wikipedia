@@ -27,3 +27,8 @@ Feb 24:
 Finished template for Create New Page. 
 TODO: Finalize implementing functionalities for the Save button. 
 TODO: Figure out how to use Git/Github to version-control. 
+
+Feb 26: 
+Finished redirection function for save button. 
+TODO: Figure out how to do git branch and merge. 
+TODO: Figure out how to pass user input as argument and make it show up on the webpage. 
