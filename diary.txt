@@ -1,0 +1,29 @@
+Jan 1: 
+Figured out how to route. 
+TODO: Figure out how to show TITLE page when go to wiki/TITLE. 
+
+Jan 2: 
+TODO: render the entry contents into a separate page, instead of using HttpResponse
+
+Jan 4: 
+TODO: Keep implementing the search button
+
+Jan 7:
+TODO: Figure out how to render Django form in sidebar, i.e., layout.html. 
+ - Is there a way to do it without including the "form: Query()" line in every
+   views.py's function? 
+ - Maybe use decorator? 
+
+Jan 9: 
+Made the query appear on screen. 
+TODO: Use that query to render a list of matching entries, or, just keep going 
+and finish implementing the search bar
+
+Jan 14: 
+Finished query bar. 
+TODO: Start implementing the New Page function. 
+
+Feb 24: 
+Finished template for Create New Page. 
+TODO: Finalize implementing functionalities for the Save button. 
+TODO: Figure out how to use Git/Github to version-control. 
