@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.shortcuts import redirect
+from django.http import HttpResponse
 
 
 from . import util
@@ -11,7 +12,7 @@ def index(request):
     })
 
 
-def entry(request, name): 
+def entry(request, name):
     content = util.get_entry(name)
 
     entries = util.list_entries()
@@ -49,3 +50,6 @@ def query(request):
 
 def new_page(request): 
     return render(request, "encyclopedia/new_page.html")
+
+def save_entry(request): 
+    return HttpResponse("success")
