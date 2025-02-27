@@ -32,3 +32,7 @@ Feb 26:
 Finished redirection function for save button. 
 TODO: Figure out how to do git branch and merge. 
 TODO: Figure out how to pass user input as argument and make it show up on the webpage. 
+
+Feb 27: 
+Finished barebone of save button. 
+TODO: Start working on edit page. 
