@@ -52,4 +52,16 @@ def new_page(request):
     return render(request, "encyclopedia/new_page.html")
 
 def save_entry(request): 
-    return HttpResponse("success")
+    if request.method == "POST": 
+        # Get title and content from user
+        title = dict(request.POST)["title"][0]
+        content = dict(request.POST)["content"][0]
+
+        # Check whether the entry exists in our database
+        if title in util.list_entries(): 
+            return HttpResponse("Entry already exists! ")
+        
+        else: 
+            # Otherwise, save the entry
+            util.save_entry(title, content)
+            return redirect(f"/{title}")
